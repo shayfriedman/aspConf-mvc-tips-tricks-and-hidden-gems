@@ -1,0 +1,28 @@
+﻿@model DogDetailsViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Dog</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        <span style="color: @Model.EmailColor">@Model.Email</span>
+    </div>
+</fieldset>
+<p>    
+    @Html.ActionLink("Back to List", "Index")
+</p>

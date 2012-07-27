@@ -1,4 +1,8 @@
-aspConf-mvc-tips-tricks-and-hidden-gems
-=======================================
+aspConf ASP.NET MVC Tips, Tricks and Hidden Gems Session Sample code
+=======================================================================
 
-Code samples from my aspConf session - ASP.NET MVC Tips, Tricks and Hidden Gems
+This is the sample code from my aspConf ASP.NET MVC Tips, Tricks and Hidden Gems session.
+
+The main solution that contains all the samples can be found in the aspConf folder (aspConf/aspConf.sln).
+
+There is no license on this code. You're free to do whatever you want with it.

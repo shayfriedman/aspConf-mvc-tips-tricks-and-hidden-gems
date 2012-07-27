@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainDemo", "MainDemo", "{22BF562F-B9C5-426F-BF96-A441E2F7B5BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassAssignment", "MassAssignment", "{2C2A69D6-8778-4D83-8DC3-57C19D2AFE75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RazorOutsideMVC", "RazorOutsideMVC", "{47E2BCE1-16AD-4834-A4E8-AE539B73306E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean", "..\MainDemo\Clean\Clean.csproj", "{87C7B939-F850-4BFC-BFFE-64F2722609D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassAssignmentDemo", "..\MassAssignmentDemo\MassAssignmentDemo\MassAssignmentDemo.csproj", "{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "..\RazorOutside\Demo\Demo.csproj", "{E8E9E248-415C-414D-AB11-35752F9CB5A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1}.Release|x86.ActiveCfg = Release|Any CPU
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Debug|x86.ActiveCfg = Debug|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Debug|x86.Build.0 = Debug|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Release|Any CPU.ActiveCfg = Release|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Release|x86.ActiveCfg = Release|x86
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87C7B939-F850-4BFC-BFFE-64F2722609D9} = {22BF562F-B9C5-426F-BF96-A441E2F7B5BA}
+		{A3C69D3A-50CF-438F-94C3-69ADF3D94EF1} = {2C2A69D6-8778-4D83-8DC3-57C19D2AFE75}
+		{E8E9E248-415C-414D-AB11-35752F9CB5A5} = {47E2BCE1-16AD-4834-A4E8-AE539B73306E}
+	EndGlobalSection
+EndGlobal
